@@ -1,7 +1,19 @@
 
 // next.config.js
 const nextConfig = {
-  // Your Next.js configuration here
+
 };
 
 module.exports = nextConfig;
+
+
+// next.config.js
+module.exports = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    });
+    return config;
+  },
+};

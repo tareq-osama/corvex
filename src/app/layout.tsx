@@ -9,8 +9,8 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your App Name",
-  description: "Your app description",
+  title: "Corvex®",
+  description: "Agencies Long Waited Client Porta",
 }
 
 export default function RootLayout({
