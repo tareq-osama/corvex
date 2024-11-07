@@ -228,13 +228,17 @@ export default function Page() {
           <SidebarMenu>
             <SidebarMenuItem>
 
-            <SidebarGroupLabel> <img
+            <SidebarGroupLabel> 
+                
+            <img
               className="light:invert"
-              src="/corvex.svg"
-              alt="Corvex"
+              src="/corvexlogo.svg" 
+              alt="Corvex®"
               width={120}
   
-            /> </SidebarGroupLabel>
+            />
+
+            </SidebarGroupLabel>
    
 
             </SidebarMenuItem>
