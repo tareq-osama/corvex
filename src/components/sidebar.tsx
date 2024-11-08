@@ -110,36 +110,42 @@ const data = {
   ],
   navMain: [
     {
-      title: "Playground",
+      title: "Documents",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
+   
         {
-          title: "History",
+          title: "Contacts",
           url: "#",
         },
         {
-          title: "Starred",
+          title: "Proposals",
           url: "#",
         },
         {
-          title: "Settings",
+          title: "Forms",
           url: "#",
         },
+        {
+          title: "Meetings",
+          url: "#",
+        },
+   
       ],
     },
     {
-      title: "Models",
+      title: "Project Management",
       url: "#",
       icon: Bot,
       items: [
         {
-          title: "Genesis",
+          title: "Projects",
           url: "#",
         },
         {
-          title: "Explorer",
+          title: "Reports",
           url: "#",
         },
         {
@@ -149,24 +155,24 @@ const data = {
       ],
     },
     {
-      title: "Documentation",
+      title: "Financial Managemet",
       url: "#",
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
+          title: "Invoices",
           url: "#",
         },
         {
-          title: "Get Started",
+          title: "Income",
           url: "#",
         },
         {
-          title: "Tutorials",
+          title: "Expenses",
           url: "#",
         },
         {
-          title: "Changelog",
+          title: "Bookkeeping",
           url: "#",
         },
       ],
@@ -281,7 +287,7 @@ export default function Page() {
             </SidebarMenu>
           </SidebarGroup>
           <SidebarGroup className="group-data-[collapsible=icon]:hidden">
-            <SidebarGroupLabel>Projects</SidebarGroupLabel>
+            <SidebarGroupLabel>Reports</SidebarGroupLabel>
             <SidebarMenu>
               {data.projects.map((item) => (
                 <SidebarMenuItem key={item.name}>
